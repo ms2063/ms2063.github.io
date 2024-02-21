@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>통계 on ms2063</title>
+    <link>https://ms2063.github.io/ko/tags/%ED%86%B5%EA%B3%84/</link>
+    <description>Recent content in 통계 on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ko/tags/%ED%86%B5%EA%B3%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>통계 - 대응표본 T 검정(Paired t-Test)</title>
+      <link>https://ms2063.github.io/ko/posts/10/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/10/</guid>
+      <description>&lt;p&gt;본 글은 통계학에서 사용되는 대응표본 T 검정을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>통계 - 독립표본 T 검정(Independent Samples t-Test)</title>
+      <link>https://ms2063.github.io/ko/posts/9/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/9/</guid>
+      <description>&lt;p&gt;본 글은 통계학에서 사용되는 독립표본 T 검정(Independent Samples t-Test)을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>통계 - 단일표본 T 검정(One Sample t-Test)</title>
+      <link>https://ms2063.github.io/ko/posts/8/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/8/</guid>
+      <description>&lt;p&gt;본 글은 통계학에서 사용되는 단일표본 T 검정을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>통계 - 회귀 분석</title>
+      <link>https://ms2063.github.io/ko/posts/7/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/7/</guid>
+      <description>&lt;p&gt;본  글은 통계학에서 회귀 분석을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>통계 - 가설 검정 (1)</title>
+      <link>https://ms2063.github.io/ko/posts/6/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/6/</guid>
+      <description>&lt;p&gt;본 글은 pandas 라이브러리를 활용하는 데에 있어 여러 개의 데이터를 하나로 통합하는 방법을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

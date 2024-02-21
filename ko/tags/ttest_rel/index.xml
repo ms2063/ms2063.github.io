@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ttest_rel on ms2063</title>
+    <link>https://ms2063.github.io/ko/tags/ttest_rel/</link>
+    <description>Recent content in ttest_rel on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ko/tags/ttest_rel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>통계 - 대응표본 T 검정(Paired t-Test)</title>
+      <link>https://ms2063.github.io/ko/posts/10/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/10/</guid>
+      <description>&lt;p&gt;본 글은 통계학에서 사용되는 대응표본 T 검정을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

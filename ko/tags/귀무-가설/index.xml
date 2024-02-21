@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>귀무 가설 on ms2063</title>
+    <link>https://ms2063.github.io/ko/tags/%EA%B7%80%EB%AC%B4-%EA%B0%80%EC%84%A4/</link>
+    <description>Recent content in 귀무 가설 on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ko/tags/%EA%B7%80%EB%AC%B4-%EA%B0%80%EC%84%A4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>통계 - 가설 검정 (1)</title>
+      <link>https://ms2063.github.io/ko/posts/6/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/6/</guid>
+      <description>&lt;p&gt;본 글은 pandas 라이브러리를 활용하는 데에 있어 여러 개의 데이터를 하나로 통합하는 방법을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

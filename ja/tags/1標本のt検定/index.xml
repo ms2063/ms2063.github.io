@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1標本のt検定 on ms2063</title>
+    <link>https://ms2063.github.io/ja/tags/1%E6%A8%99%E6%9C%AC%E3%81%AEt%E6%A4%9C%E5%AE%9A/</link>
+    <description>Recent content in 1標本のt検定 on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 13 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ja/tags/1%E6%A8%99%E6%9C%AC%E3%81%AEt%E6%A4%9C%E5%AE%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>統計 - 1標本のt検定</title>
+      <link>https://ms2063.github.io/ja/posts/8/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/8/</guid>
+      <description>&lt;p&gt;この投稿は、統計学で使用される1標本のt検定について説明するために作成されました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

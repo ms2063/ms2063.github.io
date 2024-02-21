@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>date_range on ms2063</title>
+    <link>https://ms2063.github.io/ja/tags/date_range/</link>
+    <description>Recent content in date_range on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ja/tags/date_range/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python - pandasのdate_range</title>
+      <link>https://ms2063.github.io/ja/posts/2/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/2/</guid>
+      <description>&lt;p&gt;この投稿は、pandasライブラリ内で日付を自動的に生成できるdate_range()関数について説明するために作成されました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

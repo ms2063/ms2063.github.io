@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pandas on ms2063</title>
+    <link>https://ms2063.github.io/ko/tags/pandas/</link>
+    <description>Recent content in pandas on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ko/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>파이썬 - pandas 데이터 통합하기 (concat, join, merge)</title>
+      <link>https://ms2063.github.io/ko/posts/5/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/5/</guid>
+      <description>&lt;p&gt;본 글은 pandas 라이브러리를 활용하는 데에 있어 여러 개의 데이터를 하나로 통합하는 방법을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>파이썬 - pandas loc vs iloc</title>
+      <link>https://ms2063.github.io/ko/posts/3/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/3/</guid>
+      <description>&lt;p&gt;본 글은 파이썬 내 &lt;em&gt;&lt;strong&gt;pandas&lt;/strong&gt;&lt;/em&gt; 라이브러리를 활용하여 DataFrame을 다룰 때 필요한 &lt;strong&gt;.loc()&lt;/strong&gt; 과 &lt;strong&gt;.iloc()&lt;/strong&gt; 각각의 특징과 차이점을 설명하고자 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>파이썬 - pandas 날짜 자동 생성 date_range</title>
+      <link>https://ms2063.github.io/ko/posts/2/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/2/</guid>
+      <description>&lt;p&gt;본 글은 pandas 라이브러리 내 날짜를 자동으로 생성할 수 있는 date_range() 함수를 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

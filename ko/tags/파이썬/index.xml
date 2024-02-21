@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>파이썬 on ms2063</title>
+    <link>https://ms2063.github.io/ko/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
+    <description>Recent content in 파이썬 on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ko/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django - pyburger 프로젝트 (1)</title>
+      <link>https://ms2063.github.io/ko/posts/11/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/11/</guid>
+      <description>&lt;p&gt;본 글은 django를 활용하여 여러가지 항목들을 구현하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>통계 - 대응표본 T 검정(Paired t-Test)</title>
+      <link>https://ms2063.github.io/ko/posts/10/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/10/</guid>
+      <description>&lt;p&gt;본 글은 통계학에서 사용되는 대응표본 T 검정을 설명하기 위해 작성되었습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

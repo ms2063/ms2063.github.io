@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>matplotlib on ms2063</title>
+    <link>https://ms2063.github.io/ja/tags/matplotlib/</link>
+    <description>Recent content in matplotlib on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ja/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python - Matplotlib テキスト追加</title>
+      <link>https://ms2063.github.io/ja/posts/4/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/4/</guid>
+      <description>&lt;p&gt;この記事は、Python内のmatplotlibライブラリを使用してグラフにテキストを追加する方法を説明するために作成されました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
