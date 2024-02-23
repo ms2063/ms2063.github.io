@@ -6,34 +6,76 @@
     <description>Recent content in Tags on ms2063</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ms2063.github.io/ko/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>katex</title>
-      <link>https://ms2063.github.io/ko/tags/katex/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ko/tags/katex/</guid>
+      <title>feature engineering</title>
+      <link>https://ms2063.github.io/ko/tags/feature-engineering/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/feature-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>maths</title>
-      <link>https://ms2063.github.io/ko/tags/maths/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ko/tags/maths/</guid>
+      <title>machine learning</title>
+      <link>https://ms2063.github.io/ko/tags/machine-learning/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>sample</title>
-      <link>https://ms2063.github.io/ko/tags/sample/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ko/tags/sample/</guid>
+      <title>python</title>
+      <link>https://ms2063.github.io/ko/tags/python/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/python/</guid>
       <description></description>
     </item>
     <item>
-      <title>shortcodes</title>
-      <link>https://ms2063.github.io/ko/tags/shortcodes/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ko/tags/shortcodes/</guid>
+      <title>random search</title>
+      <link>https://ms2063.github.io/ko/tags/random-search/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/random-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>랜덤 서치</title>
+      <link>https://ms2063.github.io/ko/tags/%EB%9E%9C%EB%8D%A4-%EC%84%9C%EC%B9%98/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/%EB%9E%9C%EB%8D%A4-%EC%84%9C%EC%B9%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>머신 러닝</title>
+      <link>https://ms2063.github.io/ko/tags/%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>파이썬</title>
+      <link>https://ms2063.github.io/ko/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>피처 엔지니어링</title>
+      <link>https://ms2063.github.io/ko/tags/%ED%94%BC%EC%B2%98-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/%ED%94%BC%EC%B2%98-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>grid search</title>
+      <link>https://ms2063.github.io/ko/tags/grid-search/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/grid-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>그리드 서치</title>
+      <link>https://ms2063.github.io/ko/tags/%EA%B7%B8%EB%A6%AC%EB%93%9C-%EC%84%9C%EC%B9%98/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/tags/%EA%B7%B8%EB%A6%AC%EB%93%9C-%EC%84%9C%EC%B9%98/</guid>
       <description></description>
     </item>
     <item>
@@ -55,20 +97,6 @@
       <link>https://ms2063.github.io/ko/tags/github/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ko/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>python</title>
-      <link>https://ms2063.github.io/ko/tags/python/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ko/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>파이썬</title>
-      <link>https://ms2063.github.io/ko/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ko/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
       <description></description>
     </item>
     <item>

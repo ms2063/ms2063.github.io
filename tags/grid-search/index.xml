@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>grid search on ms2063</title>
+    <link>https://ms2063.github.io/tags/grid-search/</link>
+    <description>Recent content in grid search on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/tags/grid-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning - Grid Search</title>
+      <link>https://ms2063.github.io/posts/27/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/27/</guid>
+      <description>&lt;p&gt;One of the efficient methods to find the optimal parameters of a model in machine learning is Grid Search. This article explains what grid search is, how it works, and when it should be used.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>random search on ms2063</title>
+    <link>https://ms2063.github.io/tags/random-search/</link>
+    <description>Recent content in random search on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/tags/random-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning - Random Search</title>
+      <link>https://ms2063.github.io/posts/28/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/28/</guid>
+      <description>&lt;p&gt;In this article, we explain the concept of Random Search, one of the hyperparameter tuning methods to maximize the performance of models in machine learning, and introduce an example of implementation using the Scikit-learn library.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

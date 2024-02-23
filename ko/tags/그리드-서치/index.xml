@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>그리드 서치 on ms2063</title>
+    <link>https://ms2063.github.io/ko/tags/%EA%B7%B8%EB%A6%AC%EB%93%9C-%EC%84%9C%EC%B9%98/</link>
+    <description>Recent content in 그리드 서치 on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ko/tags/%EA%B7%B8%EB%A6%AC%EB%93%9C-%EC%84%9C%EC%B9%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>머신 러닝 - 그리드 서치(Grid Search)</title>
+      <link>https://ms2063.github.io/ko/posts/27/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/27/</guid>
+      <description>&lt;p&gt;머신러닝에서 모델의 최적의 파라미터를 찾기 위한 효율적인 방법 중 하나는 그리드 서치(Grid Search)입니다. 본 글에서는 그리드 서치가 무엇이며, 어떻게 작동하는지, 그리고 언제 사용해야 하는지에 대해 설명합니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

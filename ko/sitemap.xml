@@ -3,28 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-      <url>
-            <loc>https://ms2063.github.io/ko/posts/post/</loc>
-            <lastmod>2024-02-18T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ja"
-              href="https://ms2063.github.io/ja/posts/post/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://ms2063.github.io/posts/post/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="ko"
-              href="https://ms2063.github.io/ko/posts/post/"
-              />
-          </url>
-    
-  
-    
   
     
   
@@ -37,7 +15,7 @@
     
       <url>
             <loc>https://ms2063.github.io/ko/</loc>
-            <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="ja"
@@ -57,9 +35,57 @@
     
   
     
+  
+    
+  
+    
+      <url>
+            <loc>https://ms2063.github.io/ko/posts/28/</loc>
+            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/posts/28/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/posts/28/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/posts/28/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://ms2063.github.io/ko/posts/29/</loc>
+            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/posts/29/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/posts/29/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/posts/29/"
+              />
+          </url>
+    
+  
+    
       <url>
             <loc>https://ms2063.github.io/ko/posts/</loc>
-            <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -81,14 +107,40 @@
     
   
     
+  
+    
+  
+    
+  
+    
       <url>
-            <loc>https://ms2063.github.io/ko/posts/11/</loc>
-            <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+            <loc>https://ms2063.github.io/ko/posts/27/</loc>
+            <lastmod>2024-02-19T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/posts/27/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/posts/27/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/posts/27/"
+              />
           </url>
     
   
     
   
+    
+      <url>
+            <loc>https://ms2063.github.io/ko/posts/11/</loc>
+            <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+          </url>
     
   
     

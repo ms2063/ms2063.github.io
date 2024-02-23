@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on ms2063</title>
+    <link>https://ms2063.github.io/ja/tags/machine-learning/</link>
+    <description>Recent content in machine learning on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ja/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>機械学習 - 特徴量エンジニアリング（Feature Engineering）</title>
+      <link>https://ms2063.github.io/ja/posts/29/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/29/</guid>
+      <description>&lt;p&gt;この投稿では、生データ（raw data）をモデルが理解できる形に変換するプロセスである特徴量エンジニアリング（Feature Engineering）が何であり、なぜ重要なのか、そして基本的な特徴量エンジニアリング技術について説明します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>機械学習 ー ランダムサーチ(Random Search)</title>
+      <link>https://ms2063.github.io/ja/posts/28/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/28/</guid>
+      <description>&lt;p&gt;この投稿では、マシンラーニングでモデルの性能を最大化するためのハイパーパラメータチューニングの一つであるランダムサーチ(Random Search)の概念を説明し、Scikit-learnライブラリを使用した実装例を紹介します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>機械学習 - グリッドサーチ(Grid Search)</title>
+      <link>https://ms2063.github.io/ja/posts/27/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/27/</guid>
+      <description>&lt;p&gt;機械学習でモデルの最適なパラメータを見つけるための効率的な方法の一つはグリッドサーチ(Grid Search)です。この投稿では、グリッドサーチとは何か、どのように機能するか、そしていつ使用すべきかについて説明します。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

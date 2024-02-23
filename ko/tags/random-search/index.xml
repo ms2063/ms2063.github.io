@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>random search on ms2063</title>
+    <link>https://ms2063.github.io/ko/tags/random-search/</link>
+    <description>Recent content in random search on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ko/tags/random-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>머신러닝 - 랜덤 서치(Random Search)</title>
+      <link>https://ms2063.github.io/ko/posts/28/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/28/</guid>
+      <description>&lt;p&gt;본 글에서는 머신러닝에서 모델의 성능을 극대화하기 위한 하이퍼파라미터 튜닝 중 하나인 랜덤 서치(Random Search)의 개념을 설명하고, Scikit-learn 라이브러리를 사용한 구현 예를 함께 소개하겠습니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

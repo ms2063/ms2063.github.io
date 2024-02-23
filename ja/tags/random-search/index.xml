@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>random search on ms2063</title>
+    <link>https://ms2063.github.io/ja/tags/random-search/</link>
+    <description>Recent content in random search on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ja/tags/random-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>機械学習 ー ランダムサーチ(Random Search)</title>
+      <link>https://ms2063.github.io/ja/posts/28/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/28/</guid>
+      <description>&lt;p&gt;この投稿では、マシンラーニングでモデルの性能を最大化するためのハイパーパラメータチューニングの一つであるランダムサーチ(Random Search)の概念を説明し、Scikit-learnライブラリを使用した実装例を紹介します。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -20,7 +20,7 @@
       <link>https://ms2063.github.io/ja/posts/3/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/posts/3/</guid>
-      <description>&lt;p&gt;この投稿は、Pythonの &lt;em&gt;&lt;strong&gt;pandas&lt;/strong&gt;&lt;/em&gt; ライブラリを活用してDataFrameを扱う際に必要な**.loc()と.iloc()**のそれぞれの特徴と違いを説明するために作成されました。&lt;/p&gt;</description>
+      <description>&lt;p&gt;この投稿は、Pythonの &lt;em&gt;&lt;strong&gt;pandas&lt;/strong&gt;&lt;/em&gt; ライブラリを活用してDataFrameを扱う際に必要な &lt;strong&gt;.loc()&lt;/strong&gt; と &lt;strong&gt;.iloc()&lt;/strong&gt; のそれぞれの特徴と違いを説明するために作成されました。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python - pandasのdate_range</title>
