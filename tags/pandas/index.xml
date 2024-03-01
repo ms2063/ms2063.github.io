@@ -13,21 +13,21 @@
       <link>https://ms2063.github.io/posts/5/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/5/</guid>
-      <description>&lt;p&gt;This article was written to explain methods for integrating multiple datasets into one using the pandas library.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article explains methods for integrating multiple datasets into one using the pandas library.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python - pandas Automatic Date Generation with date_range</title>
       <link>https://ms2063.github.io/posts/2/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/2/</guid>
-      <description>&lt;p&gt;This article was written to explain the date_range() function within the pandas library that can automatically generate dates.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article explains the date_range() function within the pandas library that can automatically generate dates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python - pandas loc vs iloc</title>
       <link>https://ms2063.github.io/posts/3/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/3/</guid>
-      <description>&lt;p&gt;This article was written to explain the features and differences between &lt;strong&gt;.loc()&lt;/strong&gt; and &lt;strong&gt;.iloc()&lt;/strong&gt;, which are necessary when handling DataFrames using the &lt;em&gt;&lt;strong&gt;pandas&lt;/strong&gt;&lt;/em&gt; library in Python.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article explains the features and differences between &lt;strong&gt;.loc()&lt;/strong&gt; and &lt;strong&gt;.iloc()&lt;/strong&gt;, which are necessary when handling DataFrames using the &lt;em&gt;&lt;strong&gt;pandas&lt;/strong&gt;&lt;/em&gt; library in Python.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

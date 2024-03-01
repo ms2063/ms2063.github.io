@@ -20,7 +20,7 @@
       <link>https://ms2063.github.io/posts/28/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/28/</guid>
-      <description>&lt;p&gt;In this article, we explain the concept of Random Search, one of the hyperparameter tuning methods to maximize the performance of models in machine learning, and introduce an example of implementation using the Scikit-learn library.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article explains the concept of Random Search, one of the hyperparameter tuning methods to maximize the performance of models in machine learning, and introduce an example of implementation using the Scikit-learn library.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Machine Learning - Grid Search</title>
@@ -28,6 +28,34 @@
       <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/27/</guid>
       <description>&lt;p&gt;One of the efficient methods to find the optimal parameters of a model in machine learning is Grid Search. This article explains what grid search is, how it works, and when it should be used.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Learning - Cost Function</title>
+      <link>https://ms2063.github.io/posts/20/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/20/</guid>
+      <description>&lt;p&gt;This article explains what Cost Function is for Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Learning - Linear Regression Model</title>
+      <link>https://ms2063.github.io/posts/19/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/19/</guid>
+      <description>&lt;p&gt;This article explains what Unsupervised Learning is for Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Learning - Supervised Learning</title>
+      <link>https://ms2063.github.io/posts/17/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/17/</guid>
+      <description>&lt;p&gt;This article explains what Supervised Learning is for Machine Learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Machine Learning - Unsupervised Learning</title>
+      <link>https://ms2063.github.io/posts/18/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/18/</guid>
+      <description>&lt;p&gt;This article explains what Unsupervised Learning is for Machine Learning.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

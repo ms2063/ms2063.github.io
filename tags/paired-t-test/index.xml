@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paired t-Test on ms2063</title>
+    <title>paired t-test on ms2063</title>
     <link>https://ms2063.github.io/tags/paired-t-test/</link>
-    <description>Recent content in Paired t-Test on ms2063</description>
+    <description>Recent content in paired t-test on ms2063</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://ms2063.github.io/posts/10/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/10/</guid>
-      <description>&lt;p&gt;This article was written to explain the Paired Sample t-Test used in statistics.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article explains the Paired Sample t-Test used in statistics.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

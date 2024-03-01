@@ -13,7 +13,7 @@
       <link>https://ms2063.github.io/posts/28/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/28/</guid>
-      <description>&lt;p&gt;In this article, we explain the concept of Random Search, one of the hyperparameter tuning methods to maximize the performance of models in machine learning, and introduce an example of implementation using the Scikit-learn library.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This article explains the concept of Random Search, one of the hyperparameter tuning methods to maximize the performance of models in machine learning, and introduce an example of implementation using the Scikit-learn library.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
