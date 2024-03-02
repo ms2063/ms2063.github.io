@@ -17,8 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
   
-  <title>Machine Learning - Cost Function &middot; ms2063</title>
-    <meta name="title" content="Machine Learning - Cost Function &middot; ms2063" />
+  <title>Machine Learning - Vectorization &middot; ms2063</title>
+    <meta name="title" content="Machine Learning - Vectorization &middot; ms2063" />
   
   
   
@@ -77,7 +77,7 @@
   
   
   
-  <link rel="canonical" href="https://ms2063.github.io/posts/20/" />
+  <link rel="canonical" href="https://ms2063.github.io/posts/23/" />
   
   
     
@@ -89,15 +89,15 @@
   
   
   
-  <meta property="og:title" content="Machine Learning - Cost Function" />
+  <meta property="og:title" content="Machine Learning - Vectorization" />
 <meta property="og:description" content="A brief sample of mathematical notation in Congo." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ms2063.github.io/posts/20/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://ms2063.github.io/posts/23/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-18T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-02-18T00:00:00+00:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Machine Learning - Cost Function"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Machine Learning - Vectorization"/>
 <meta name="twitter:description" content="A brief sample of mathematical notation in Congo."/>
 
   
@@ -106,12 +106,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog posts",
-    "name": "Machine Learning - Cost Function",
-    "headline": "Machine Learning - Cost Function",
+    "name": "Machine Learning - Vectorization",
+    "headline": "Machine Learning - Vectorization",
     "description": "A brief sample of mathematical notation in Congo.",
-    "abstract": "\u003cp\u003eThis article explains what Cost Function is for Machine Learning.\u003c\/p\u003e",
+    "abstract": "\u003cp\u003eThis article explains what vectorization is on Machine Learning.\u003c\/p\u003e",
     "inLanguage": "en",
-    "url" : "https:\/\/ms2063.github.io\/posts\/20\/",
+    "url" : "https:\/\/ms2063.github.io\/posts\/23\/",
     "author" : {
       "@type": "Person",
       "name": "ms2063"
@@ -122,10 +122,10 @@
     
     "dateModified": "2024-02-18T00:00:00\u002b00:00",
     
-    "keywords": ["machine learning","cost function"],
+    "keywords": ["machine learning","vectorization"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "389"
+    "wordCount": "301"
   }
   </script>
 
@@ -143,17 +143,6 @@
   
 
 
-
-  
-  
-  
-  
-  <script
-    defer
-    type="text/javascript"
-    src="/js/chart.bundle.2d0969acac9db81ced1a10b9d60c3a88efb1767dac65a65f7e5e08e6297b25879b1a6672391e8829144ed8b18cec53057f337621857b144b144291f53c76b676.js"
-    integrity="sha512-LQlprKyduBztGhC51gw6iO&#43;xdn2sZaZffl4I5il7JYebGmZyOR6IKRRO2LGM7FMFfzN2IYV7FEsUQpH1PHa2dg=="
-  ></script>
 
 
 
@@ -471,8 +460,8 @@ if (!doNotTrack) {
   <li class="hidden inline">
     <a
       class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
-      href="/posts/20/"
-      >Machine Learning - Cost Function</a
+      href="/posts/23/"
+      >Machine Learning - Vectorization</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -481,7 +470,7 @@ if (!doNotTrack) {
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Machine Learning - Cost Function
+        Machine Learning - Vectorization
       </h1>
       
         <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
@@ -539,9 +528,9 @@ if (!doNotTrack) {
             >
           
             <a
-              href="/tags/cost-function/"
+              href="/tags/vectorization/"
               class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
-              >cost function</a
+              >vectorization</a
             >
           
         
@@ -567,7 +556,15 @@ if (!doNotTrack) {
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#cost-function"><strong>Cost Function</strong></a></li>
+    <li>
+      <ul>
+        <li><a href="#parameters-and-features-in-linear-regression"><strong>Parameters and Features in Linear Regression</strong></a></li>
+        <li><a href="#representation-in-code"><strong>Representation in Code</strong></a></li>
+        <li><a href="#linear-regression-model-without-vectorization"><strong>Linear Regression Model Without Vectorization</strong></a></li>
+        <li><a href="#linear-regression-model-with-vectorization"><strong>Linear Regression Model With Vectorization</strong></a></li>
+        <li><a href="#updating-parameters-with-gradient-descent"><strong>Updating Parameters with Gradient Descent</strong></a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -577,258 +574,39 @@ if (!doNotTrack) {
         </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>This article explains what Cost Function is for Machine Learning.</p>
-<h2 id="cost-function" class="relative group"><strong>Cost Function</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cost-function" aria-label="Anchor">#</a></span></h2><p>In machine learning, the cost function plays a pivotal role. It is a mathematical formula that measures the performance of a machine learning model for given data. The cost function quantifies the error between predicted values and expected values and presents it in the form of a single real number.</p>
-<p>Depending on the problem, this could be the difference between the predicted class and the actual class in classification problems, or the difference between estimated values and actual values in regression problems.</p>
-<p>When training a model, our goal is to find the best parameters (coefficients or weights) that minimize the cost function.</p>
-<p>Let&rsquo;s take a look at the following example:</p>
-<table>
-<thead>
-<tr>
-<th>size in feet\(^2\) (x)</th>
-<th>price $1000’s (y)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2104</td>
-<td>460</td>
-</tr>
-<tr>
-<td>1416</td>
-<td>232</td>
-</tr>
-<tr>
-<td>1534</td>
-<td>315</td>
-</tr>
-<tr>
-<td>852</td>
-<td>178</td>
-</tr>
-<tr>
-<td>…</td>
-<td>…</td>
-</tr>
-</tbody>
-</table>
-<p>The chosen model for our training set is a simple linear regression model defined as <strong>\(f_{w,b}(x) = wx+b\)</strong> .</p>
-<p>Here, <strong>\(w,b\)</strong> are the parameters of the model, which we will adjust to fit our model to the data best. These parameters are crucial as they will determine the slope of the line (<em>weight</em> <strong>\(w\)</strong>) and the point where the line crosses the y-axis (<em>bias</em> <strong>\(b\)</strong>).</p>
-<p>The objective during training is to find the optimal values for these parameters so that our model&rsquo;s predictions, <strong>\( \hat{y} \)</strong>, are as close as possible to the actual outcomes, <strong>\(y\)</strong>, for all provided training examples <strong>\( (x^{(i)}, y^{(i)}) \)</strong>.</p>
-<p>To achieve this, we introduce a cost function, more specifically, the Squared Error Cost Function, which is represented as:</p>
-<p><strong>\(J(w,b) = \frac{1}{2m} \displaystyle\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2 \)</strong></p>
-<p>Where:</p>
+        <p>This article explains what vectorization is on Machine Learning.</p>
+<h3 id="parameters-and-features-in-linear-regression" class="relative group"><strong>Parameters and Features in Linear Regression</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#parameters-and-features-in-linear-regression" aria-label="Anchor">#</a></span></h3><p>In linear regression with multiple variables, we deal with vectors of parameters and features. Consider the following vectors:</p>
 <ul>
-<li><strong>\(J(w,b)\)</strong> is the cost function.</li>
-<li><strong>\(m\)</strong> is the number of training examples.</li>
-<li><strong>\( \hat{y}^{(i)} \)</strong> is the prediction of the model for the <strong>\(i^{th}\)</strong> example.</li>
-<li><strong>\( y^{(i)}\)</strong> is the actual value for the <strong>\(i^{th}\)</strong> example.</li>
+<li><strong>Parameters vector</strong> \( \vec{w} \) represents the weights: \( \vec{w} = [w_1 \ w_2 \ w_3]\)</li>
+<li><strong>Features vector</strong> \( \vec{x} \) represents the input features: \( \vec{x} = [x_1 \ x_2 \ x_3]\)</li>
 </ul>
-<p>The factor of <strong>\(\frac{1}{2}\)</strong> is used to simplify the derivative calculation of the cost function. Our goal in training is to minimize <strong>\(J(w,b)\)</strong>, which will result in the best possible values for <strong>\(w\)</strong> and <strong>\(b\)</strong>.</p>
-<p>The charts below show the possible linear models given different values of <strong>\(w\)</strong> and <strong>\(b\)</strong>:</p>
-<div class="chart">
-  
-  <canvas id="162385974"></canvas>
-  <script type="text/javascript">
-    window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("162385974");
-      const chart = new Chart(ctx, {
-        
-type: 'line',
-  data: {
-    labels: [0, 1, 2, 3],
-    datasets: [{
-        label: 'f(x) = 1.5 (w = 0, b = 1.5)',
-        data: [1.5, 1.5, 1.5, 1.5],
-    borderColor: 'blue', // Line color
-      borderWidth: 2, // Line thickness
-      fill: false, // No fill under the line
-      pointBackgroundColor: 'blue', // Point color
-      pointBorderColor: 'blue', // Point border color
-      pointRadius: 5, // Point radius
-      pointHoverRadius: 7 // Point radius when hovered
-    }]
-    
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true,
-        min: 0,
-        max: 3,
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      },
-      x: {
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      }
-    },
-    plugins: {
-      legend: {
-        labels: {
-          color: 'black'
-        }
-      }
-    }
-  },
-  plugins: [{
-    id: 'background-colour',
-    beforeDraw: (chart) => {
-      const ctx = chart.canvas.getContext('2d');
-      ctx.fillStyle = 'white';
-      ctx.fillRect(0, 0, chart.width, chart.height);
-    }
-  }]
-
-      });
-    });
-  </script>
-</div>
-
-<div class="chart">
-  
-  <canvas id="927846513"></canvas>
-  <script type="text/javascript">
-    window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("927846513");
-      const chart = new Chart(ctx, {
-        
- type: 'line',
-  data: {
-    labels: [0, 1, 2, 3], // X-axis labels
-    datasets: [{
-      label: 'f(x) = 0.5x (w = 0.5, b = 0)',
-      data: [0, 0.5, 1, 1.5], // Y-values for each X (0, 0.5, 1, 1.5)
-      borderColor: 'blue', // Line color
-      borderWidth: 2, // Line thickness
-      fill: false, // No fill under the line
-      pointBackgroundColor: 'blue', // Point color
-      pointBorderColor: 'blue', // Point border color
-      pointRadius: 5, // Point radius
-      pointHoverRadius: 7 // Point radius when hovered
-    }]
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true,
-        min: 0,
-        max: 3,
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      },
-      x: {
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      }
-    },
-    plugins: {
-      legend: {
-        labels: {
-          color: 'black'
-        }
-      }
-    }
-  },
-  plugins: [{
-    id: 'background-colour',
-    beforeDraw: (chart) => {
-      const ctx = chart.canvas.getContext('2d');
-      ctx.fillStyle = 'white';
-      ctx.fillRect(0, 0, chart.width, chart.height);
-    }
-  }]
-
-      });
-    });
-  </script>
-</div>
-
-<div class="chart">
-  
-  <canvas id="924165837"></canvas>
-  <script type="text/javascript">
-    window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("924165837");
-      const chart = new Chart(ctx, {
-        
-type: 'line',
-  data: {
-    labels: [0, 1, 2, 3], // X-axis labels
-    datasets: [{
-      label: 'f(x) = 0.5x + 1 (w = 0.5, b = 1)',
-      data: [1, 1.5, 2, 2.5], // Y-values for each X (f(x) = 0.5x + 1)
-      borderColor: 'blue', // Line color
-      borderWidth: 2, // Line thickness
-      fill: false, // No fill under the line
-      pointBackgroundColor: 'blue', // Point color
-      pointBorderColor: 'blue', // Point border color
-      pointRadius: 5, // Point radius
-      pointHoverRadius: 7 // Point radius when hovered
-    }]
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true,
-        min: 0,
-        max: 3,
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      },
-      x: {
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      }
-    },
-    plugins: {
-      legend: {
-        labels: {
-          color: 'black'
-        }
-      }
-    }
-  },
-  plugins: [{
-    id: 'background-colour',
-    beforeDraw: (chart) => {
-      const ctx = chart.canvas.getContext('2d');
-      ctx.fillStyle = 'white';
-      ctx.fillRect(0, 0, chart.width, chart.height);
-    }
-  }]
-
-      });
-    });
-  </script>
-</div>
-
-<p>By adjusting <strong>\(w\)</strong> and <strong>\(b\)</strong>, we can observe how the line fits the data points. The better the fit, the lower our cost function value, and hence the more accurate predictions our model will make.</p>
+<h3 id="representation-in-code" class="relative group"><strong>Representation in Code</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#representation-in-code" aria-label="Anchor">#</a></span></h3><p>In programming, especially with Python and libraries like NumPy, we account for the base-0 index. For the vectors above, the code representation is as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">w</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">3.3</span><span class="p">])</span>  <span class="c1"># Weights</span>
+</span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="mi">4</span>  <span class="c1"># Bias</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">])</span>  <span class="c1"># Features</span>
+</span></span></code></pre></div><h3 id="linear-regression-model-without-vectorization" class="relative group"><strong>Linear Regression Model Without Vectorization</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#linear-regression-model-without-vectorization" aria-label="Anchor">#</a></span></h3><p>The prediction \( f_{\vec{w},b}(\vec{x}) \) can be calculated without vectorization, using a straightforward approach:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">f</span> <span class="o">=</span> <span class="n">w</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">		<span class="n">w</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">		<span class="n">w</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="n">b</span>
+</span></span></code></pre></div><p>Or, for a more generalized form considering any number of features \(n\):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">f</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>  <span class="c1"># Assuming w and x have the same length</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">f</span> <span class="o">+=</span> <span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">f</span> <span class="o">+=</span> <span class="n">b</span>
+</span></span></code></pre></div><h3 id="linear-regression-model-with-vectorization" class="relative group"><strong>Linear Regression Model With Vectorization</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#linear-regression-model-with-vectorization" aria-label="Anchor">#</a></span></h3><p>Vectorization allows for a more efficient calculation by leveraging NumPy&rsquo;s dot product function:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">f</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span>
+</span></span></code></pre></div><h3 id="updating-parameters-with-gradient-descent" class="relative group"><strong>Updating Parameters with Gradient Descent</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#updating-parameters-with-gradient-descent" aria-label="Anchor">#</a></span></h3><p>Gradient descent is a method used to update the parameters \( \vec{w} \) n order to minimize the cost function. Consider a gradient vector \( \vec{d} \) and a learning rate of \(0.1\).</p>
+<p>Without Vectorization</p>
+<p>The update rule for each parameter \(w_j\) without vectorization would look like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">16</span><span class="p">):</span>  <span class="c1"># Assuming there are 16 parameters and gradients</span>
+</span></span><span class="line"><span class="cl">    <span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">w</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.1</span> <span class="o">*</span> <span class="n">d</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</span></span></code></pre></div><p>With Vectorization</p>
+<p>Vectorization simplifies the update process significantly:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">w</span> <span class="o">=</span> <span class="n">w</span> <span class="o">-</span> <span class="mf">0.1</span> <span class="o">*</span> <span class="n">d</span>
+</span></span></code></pre></div>
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
@@ -929,7 +707,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.facebook.com/sharer/sharer.php?u=https://ms2063.github.io/posts/20/&amp;quote=Machine%20Learning%20-%20Cost%20Function"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://ms2063.github.io/posts/23/&amp;quote=Machine%20Learning%20-%20Vectorization"
           title="Share on Facebook"
           aria-label="Share on Facebook"
           target="_blank"
@@ -942,7 +720,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://twitter.com/intent/tweet/?url=https://ms2063.github.io/posts/20/&amp;text=Machine%20Learning%20-%20Cost%20Function"
+          href="https://twitter.com/intent/tweet/?url=https://ms2063.github.io/posts/23/&amp;text=Machine%20Learning%20-%20Vectorization"
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter"
           target="_blank"
@@ -955,7 +733,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://reddit.com/submit/?url=https://ms2063.github.io/posts/20/&amp;resubmit=true&amp;title=Machine%20Learning%20-%20Cost%20Function"
+          href="https://reddit.com/submit/?url=https://ms2063.github.io/posts/23/&amp;resubmit=true&amp;title=Machine%20Learning%20-%20Vectorization"
           title="Submit to Reddit"
           aria-label="Submit to Reddit"
           target="_blank"
@@ -968,7 +746,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ms2063.github.io/posts/20/&amp;title=Machine%20Learning%20-%20Cost%20Function"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ms2063.github.io/posts/23/&amp;title=Machine%20Learning%20-%20Vectorization"
           title="Share on LinkedIn"
           aria-label="Share on LinkedIn"
           target="_blank"
@@ -981,7 +759,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="mailto:?body=https://ms2063.github.io/posts/20/&amp;subject=Machine%20Learning%20-%20Cost%20Function"
+          href="mailto:?body=https://ms2063.github.io/posts/23/&amp;subject=Machine%20Learning%20-%20Vectorization"
           title="Send via email"
           aria-label="Send via email"
           target="_blank"
@@ -994,7 +772,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://line.me/R/share?text=https://ms2063.github.io/posts/20/Machine%20Learning%20-%20Cost%20Function"
+          href="https://line.me/R/share?text=https://ms2063.github.io/posts/23/Machine%20Learning%20-%20Vectorization"
           title="Share on LINE"
           aria-label="Share on LINE"
           target="_blank"
@@ -1019,7 +797,7 @@ type: 'line',
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/27/">
+            <a class="group flex" href="/posts/22/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -1028,11 +806,11 @@ type: 'line',
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Machine Learning - Grid Search</span
+                  >Machine Learning - Linear Regression with Multiple Variables</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-02-19 00:00:00 &#43;0000 UTC">19 February 2024</time>
+                    <time datetime="2024-02-18 00:00:00 &#43;0000 UTC">18 February 2024</time>
                   
                 </span>
               </span>
@@ -1041,15 +819,15 @@ type: 'line',
         </span>
         <span>
           
-            <a class="group flex text-right" href="/posts/21/">
+            <a class="group flex text-right" href="/posts/17/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Machine Learning - Gradient Descent</span
+                  >Machine Learning - Supervised Learning</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-02-18 00:00:00 &#43;0000 UTC">18 February 2024</time>
+                    <time datetime="2024-02-17 00:00:00 &#43;0000 UTC">17 February 2024</time>
                   
                 </span>
               </span>

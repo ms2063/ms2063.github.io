@@ -17,8 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
   
-  <title>Machine Learning - Cost Function &middot; ms2063</title>
-    <meta name="title" content="Machine Learning - Cost Function &middot; ms2063" />
+  <title>Machine Learning - Linear Regression with Multiple Variables &middot; ms2063</title>
+    <meta name="title" content="Machine Learning - Linear Regression with Multiple Variables &middot; ms2063" />
   
   
   
@@ -77,7 +77,7 @@
   
   
   
-  <link rel="canonical" href="https://ms2063.github.io/posts/20/" />
+  <link rel="canonical" href="https://ms2063.github.io/posts/22/" />
   
   
     
@@ -89,15 +89,15 @@
   
   
   
-  <meta property="og:title" content="Machine Learning - Cost Function" />
+  <meta property="og:title" content="Machine Learning - Linear Regression with Multiple Variables" />
 <meta property="og:description" content="A brief sample of mathematical notation in Congo." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ms2063.github.io/posts/20/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://ms2063.github.io/posts/22/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-02-18T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-02-18T00:00:00+00:00" />
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Machine Learning - Cost Function"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Machine Learning - Linear Regression with Multiple Variables"/>
 <meta name="twitter:description" content="A brief sample of mathematical notation in Congo."/>
 
   
@@ -106,12 +106,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog posts",
-    "name": "Machine Learning - Cost Function",
-    "headline": "Machine Learning - Cost Function",
+    "name": "Machine Learning - Linear Regression with Multiple Variables",
+    "headline": "Machine Learning - Linear Regression with Multiple Variables",
     "description": "A brief sample of mathematical notation in Congo.",
-    "abstract": "\u003cp\u003eThis article explains what Cost Function is for Machine Learning.\u003c\/p\u003e",
+    "abstract": "\u003cp\u003eThis article explains what Linear Regression with Multiple Variables is on Machine Learning.\u003c\/p\u003e",
     "inLanguage": "en",
-    "url" : "https:\/\/ms2063.github.io\/posts\/20\/",
+    "url" : "https:\/\/ms2063.github.io\/posts\/22\/",
     "author" : {
       "@type": "Person",
       "name": "ms2063"
@@ -122,10 +122,10 @@
     
     "dateModified": "2024-02-18T00:00:00\u002b00:00",
     
-    "keywords": ["machine learning","cost function"],
+    "keywords": ["machine learning","multiple linear regression"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "389"
+    "wordCount": "366"
   }
   </script>
 
@@ -143,17 +143,6 @@
   
 
 
-
-  
-  
-  
-  
-  <script
-    defer
-    type="text/javascript"
-    src="/js/chart.bundle.2d0969acac9db81ced1a10b9d60c3a88efb1767dac65a65f7e5e08e6297b25879b1a6672391e8829144ed8b18cec53057f337621857b144b144291f53c76b676.js"
-    integrity="sha512-LQlprKyduBztGhC51gw6iO&#43;xdn2sZaZffl4I5il7JYebGmZyOR6IKRRO2LGM7FMFfzN2IYV7FEsUQpH1PHa2dg=="
-  ></script>
 
 
 
@@ -471,8 +460,8 @@ if (!doNotTrack) {
   <li class="hidden inline">
     <a
       class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
-      href="/posts/20/"
-      >Machine Learning - Cost Function</a
+      href="/posts/22/"
+      >Machine Learning - Linear Regression with Multiple Variables</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -481,7 +470,7 @@ if (!doNotTrack) {
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Machine Learning - Cost Function
+        Machine Learning - Linear Regression with Multiple Variables
       </h1>
       
         <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
@@ -539,9 +528,9 @@ if (!doNotTrack) {
             >
           
             <a
-              href="/tags/cost-function/"
+              href="/tags/multiple-linear-regression/"
               class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
-              >cost function</a
+              >multiple linear regression</a
             >
           
         
@@ -567,7 +556,11 @@ if (!doNotTrack) {
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#cost-function"><strong>Cost Function</strong></a></li>
+    <li><a href="#what-is-linear-regression-with-multiple-variables"><strong>What is Linear Regression with Multiple Variables?</strong></a></li>
+    <li><a href="#features"><strong>Features</strong></a></li>
+    <li><a href="#training-examples"><strong>Training Examples</strong></a></li>
+    <li><a href="#representation-of-linear-regression-model-for-multiple-variables"><strong>Representation of linear regression model for multiple variables</strong></a></li>
+    <li><a href="#model-equation"><strong>Model Equation</strong></a></li>
   </ul>
 </nav>
   </div>
@@ -577,258 +570,66 @@ if (!doNotTrack) {
         </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>This article explains what Cost Function is for Machine Learning.</p>
-<h2 id="cost-function" class="relative group"><strong>Cost Function</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cost-function" aria-label="Anchor">#</a></span></h2><p>In machine learning, the cost function plays a pivotal role. It is a mathematical formula that measures the performance of a machine learning model for given data. The cost function quantifies the error between predicted values and expected values and presents it in the form of a single real number.</p>
-<p>Depending on the problem, this could be the difference between the predicted class and the actual class in classification problems, or the difference between estimated values and actual values in regression problems.</p>
-<p>When training a model, our goal is to find the best parameters (coefficients or weights) that minimize the cost function.</p>
-<p>Let&rsquo;s take a look at the following example:</p>
+        <p>This article explains what Linear Regression with Multiple Variables is on Machine Learning.</p>
+<h2 id="what-is-linear-regression-with-multiple-variables" class="relative group"><strong>What is Linear Regression with Multiple Variables?</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-is-linear-regression-with-multiple-variables" aria-label="Anchor">#</a></span></h2><p>Linear Regression with Multiple Variables in Machine Learning involves extending the concept of linear regression from a single variable to multiple features. This approach allows us to model more complex relationships between the input features and the output variable. Here&rsquo;s a clearer explanation:</p>
+<h2 id="features" class="relative group"><strong>Features</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#features" aria-label="Anchor">#</a></span></h2><p>Consider a dataset with multiple features related to housing prices, such as:</p>
 <table>
 <thead>
 <tr>
-<th>size in feet\(^2\) (x)</th>
-<th>price $1000’s (y)</th>
+<th>Size in feet\(^2\) \(x_1\)</th>
+<th>Number of bedrooms \(x_2\)</th>
+<th>Number of floors \(x_3\)</th>
+<th>Age of home in years \(x_4\)</th>
+<th>Price ($) in $1000’s \(x_5\)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>2104</td>
+<td>5</td>
+<td>1</td>
+<td>45</td>
 <td>460</td>
 </tr>
 <tr>
 <td>1416</td>
+<td>3</td>
+<td>2</td>
+<td>40</td>
 <td>232</td>
 </tr>
 <tr>
 <td>1534</td>
+<td>3</td>
+<td>2</td>
+<td>30</td>
 <td>315</td>
 </tr>
 <tr>
 <td>852</td>
+<td>2</td>
+<td>1</td>
+<td>36</td>
 <td>178</td>
 </tr>
 <tr>
 <td>…</td>
 <td>…</td>
+<td>…</td>
+<td>…</td>
+<td>…</td>
 </tr>
 </tbody>
 </table>
-<p>The chosen model for our training set is a simple linear regression model defined as <strong>\(f_{w,b}(x) = wx+b\)</strong> .</p>
-<p>Here, <strong>\(w,b\)</strong> are the parameters of the model, which we will adjust to fit our model to the data best. These parameters are crucial as they will determine the slope of the line (<em>weight</em> <strong>\(w\)</strong>) and the point where the line crosses the y-axis (<em>bias</em> <strong>\(b\)</strong>).</p>
-<p>The objective during training is to find the optimal values for these parameters so that our model&rsquo;s predictions, <strong>\( \hat{y} \)</strong>, are as close as possible to the actual outcomes, <strong>\(y\)</strong>, for all provided training examples <strong>\( (x^{(i)}, y^{(i)}) \)</strong>.</p>
-<p>To achieve this, we introduce a cost function, more specifically, the Squared Error Cost Function, which is represented as:</p>
-<p><strong>\(J(w,b) = \frac{1}{2m} \displaystyle\sum_{i=1}^m(f_{w,b}(x^{(i)})-y^{(i)})^2 \)</strong></p>
-<p>Where:</p>
-<ul>
-<li><strong>\(J(w,b)\)</strong> is the cost function.</li>
-<li><strong>\(m\)</strong> is the number of training examples.</li>
-<li><strong>\( \hat{y}^{(i)} \)</strong> is the prediction of the model for the <strong>\(i^{th}\)</strong> example.</li>
-<li><strong>\( y^{(i)}\)</strong> is the actual value for the <strong>\(i^{th}\)</strong> example.</li>
-</ul>
-<p>The factor of <strong>\(\frac{1}{2}\)</strong> is used to simplify the derivative calculation of the cost function. Our goal in training is to minimize <strong>\(J(w,b)\)</strong>, which will result in the best possible values for <strong>\(w\)</strong> and <strong>\(b\)</strong>.</p>
-<p>The charts below show the possible linear models given different values of <strong>\(w\)</strong> and <strong>\(b\)</strong>:</p>
-<div class="chart">
-  
-  <canvas id="162385974"></canvas>
-  <script type="text/javascript">
-    window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("162385974");
-      const chart = new Chart(ctx, {
-        
-type: 'line',
-  data: {
-    labels: [0, 1, 2, 3],
-    datasets: [{
-        label: 'f(x) = 1.5 (w = 0, b = 1.5)',
-        data: [1.5, 1.5, 1.5, 1.5],
-    borderColor: 'blue', // Line color
-      borderWidth: 2, // Line thickness
-      fill: false, // No fill under the line
-      pointBackgroundColor: 'blue', // Point color
-      pointBorderColor: 'blue', // Point border color
-      pointRadius: 5, // Point radius
-      pointHoverRadius: 7 // Point radius when hovered
-    }]
-    
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true,
-        min: 0,
-        max: 3,
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      },
-      x: {
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      }
-    },
-    plugins: {
-      legend: {
-        labels: {
-          color: 'black'
-        }
-      }
-    }
-  },
-  plugins: [{
-    id: 'background-colour',
-    beforeDraw: (chart) => {
-      const ctx = chart.canvas.getContext('2d');
-      ctx.fillStyle = 'white';
-      ctx.fillRect(0, 0, chart.width, chart.height);
-    }
-  }]
-
-      });
-    });
-  </script>
-</div>
-
-<div class="chart">
-  
-  <canvas id="927846513"></canvas>
-  <script type="text/javascript">
-    window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("927846513");
-      const chart = new Chart(ctx, {
-        
- type: 'line',
-  data: {
-    labels: [0, 1, 2, 3], // X-axis labels
-    datasets: [{
-      label: 'f(x) = 0.5x (w = 0.5, b = 0)',
-      data: [0, 0.5, 1, 1.5], // Y-values for each X (0, 0.5, 1, 1.5)
-      borderColor: 'blue', // Line color
-      borderWidth: 2, // Line thickness
-      fill: false, // No fill under the line
-      pointBackgroundColor: 'blue', // Point color
-      pointBorderColor: 'blue', // Point border color
-      pointRadius: 5, // Point radius
-      pointHoverRadius: 7 // Point radius when hovered
-    }]
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true,
-        min: 0,
-        max: 3,
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      },
-      x: {
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      }
-    },
-    plugins: {
-      legend: {
-        labels: {
-          color: 'black'
-        }
-      }
-    }
-  },
-  plugins: [{
-    id: 'background-colour',
-    beforeDraw: (chart) => {
-      const ctx = chart.canvas.getContext('2d');
-      ctx.fillStyle = 'white';
-      ctx.fillRect(0, 0, chart.width, chart.height);
-    }
-  }]
-
-      });
-    });
-  </script>
-</div>
-
-<div class="chart">
-  
-  <canvas id="924165837"></canvas>
-  <script type="text/javascript">
-    window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("924165837");
-      const chart = new Chart(ctx, {
-        
-type: 'line',
-  data: {
-    labels: [0, 1, 2, 3], // X-axis labels
-    datasets: [{
-      label: 'f(x) = 0.5x + 1 (w = 0.5, b = 1)',
-      data: [1, 1.5, 2, 2.5], // Y-values for each X (f(x) = 0.5x + 1)
-      borderColor: 'blue', // Line color
-      borderWidth: 2, // Line thickness
-      fill: false, // No fill under the line
-      pointBackgroundColor: 'blue', // Point color
-      pointBorderColor: 'blue', // Point border color
-      pointRadius: 5, // Point radius
-      pointHoverRadius: 7 // Point radius when hovered
-    }]
-  },
-  options: {
-    scales: {
-      y: {
-        beginAtZero: true,
-        min: 0,
-        max: 3,
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      },
-      x: {
-        ticks: {
-          color: 'black',
-        },
-        grid: {
-          color: 'rgba(0, 0, 0, 0.1)',
-        }
-      }
-    },
-    plugins: {
-      legend: {
-        labels: {
-          color: 'black'
-        }
-      }
-    }
-  },
-  plugins: [{
-    id: 'background-colour',
-    beforeDraw: (chart) => {
-      const ctx = chart.canvas.getContext('2d');
-      ctx.fillStyle = 'white';
-      ctx.fillRect(0, 0, chart.width, chart.height);
-    }
-  }]
-
-      });
-    });
-  </script>
-</div>
-
-<p>By adjusting <strong>\(w\)</strong> and <strong>\(b\)</strong>, we can observe how the line fits the data points. The better the fit, the lower our cost function value, and hence the more accurate predictions our model will make.</p>
+<p>Each feature, denoted as \(x_j = j^{th}\) contributes to predicting the house price. The number of features is represented by \(n\).</p>
+<h2 id="training-examples" class="relative group"><strong>Training Examples</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#training-examples" aria-label="Anchor">#</a></span></h2><p>For each training example \(i\), the features are represented as a vector \( \vec{x}^{(i)} = \), with \(x_j^{(i)} = \) being the value of feature \(j\) in the \(i^{th}\) example. For instance, the features of the second training example can be expressed as \( \vec{x}^{(2)} = [1416 \ 3 \ 2 \ 40]\).</p>
+<h2 id="representation-of-linear-regression-model-for-multiple-variables" class="relative group"><strong>Representation of linear regression model for multiple variables</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#representation-of-linear-regression-model-for-multiple-variables" aria-label="Anchor">#</a></span></h2><p>In a simple linear regression model with a single variable, the prediction formula is \(f_{w,b}(x) = wx+b\), where \(w\) is the weight, and \(b\) is the bias. In contrast, the linear regression model for multiple variables is formulated as:</p>
+<p>\(f_{w,b}(x) = w_1x_1 + w_2x_2 + … + w_nx_n + b\)</p>
+<p>Here, \( \vec{w} = [w_1 \ w_2 \ w_3 \ … \ w_n] \) represents the weights for each feature, and \(b\) is the bias term.</p>
+<h2 id="model-equation" class="relative group"><strong>Model Equation</strong> <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#model-equation" aria-label="Anchor">#</a></span></h2><p>The equation for a linear regression model with multiple variables can be succinctly represented as:</p>
+<p>\( f_{\vec{w},b}(\vec{x}) = \vec{w} ・ \vec{x} + b \)</p>
+<p>This equation indicates that the prediction \( f_{\vec{w},b}(\vec{x}) \) is the dot product of the weights vector \( \vec{x} \) and the features vector \( \vec{x} \), plus the bias \(b\).
+By incorporating multiple features into the linear regression model, we can capture more complex relationships and patterns in the data, leading to more accurate predictions.</p>
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
@@ -929,7 +730,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.facebook.com/sharer/sharer.php?u=https://ms2063.github.io/posts/20/&amp;quote=Machine%20Learning%20-%20Cost%20Function"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://ms2063.github.io/posts/22/&amp;quote=Machine%20Learning%20-%20Linear%20Regression%20with%20Multiple%20Variables"
           title="Share on Facebook"
           aria-label="Share on Facebook"
           target="_blank"
@@ -942,7 +743,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://twitter.com/intent/tweet/?url=https://ms2063.github.io/posts/20/&amp;text=Machine%20Learning%20-%20Cost%20Function"
+          href="https://twitter.com/intent/tweet/?url=https://ms2063.github.io/posts/22/&amp;text=Machine%20Learning%20-%20Linear%20Regression%20with%20Multiple%20Variables"
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter"
           target="_blank"
@@ -955,7 +756,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://reddit.com/submit/?url=https://ms2063.github.io/posts/20/&amp;resubmit=true&amp;title=Machine%20Learning%20-%20Cost%20Function"
+          href="https://reddit.com/submit/?url=https://ms2063.github.io/posts/22/&amp;resubmit=true&amp;title=Machine%20Learning%20-%20Linear%20Regression%20with%20Multiple%20Variables"
           title="Submit to Reddit"
           aria-label="Submit to Reddit"
           target="_blank"
@@ -968,7 +769,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ms2063.github.io/posts/20/&amp;title=Machine%20Learning%20-%20Cost%20Function"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ms2063.github.io/posts/22/&amp;title=Machine%20Learning%20-%20Linear%20Regression%20with%20Multiple%20Variables"
           title="Share on LinkedIn"
           aria-label="Share on LinkedIn"
           target="_blank"
@@ -981,7 +782,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="mailto:?body=https://ms2063.github.io/posts/20/&amp;subject=Machine%20Learning%20-%20Cost%20Function"
+          href="mailto:?body=https://ms2063.github.io/posts/22/&amp;subject=Machine%20Learning%20-%20Linear%20Regression%20with%20Multiple%20Variables"
           title="Send via email"
           aria-label="Send via email"
           target="_blank"
@@ -994,7 +795,7 @@ type: 'line',
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://line.me/R/share?text=https://ms2063.github.io/posts/20/Machine%20Learning%20-%20Cost%20Function"
+          href="https://line.me/R/share?text=https://ms2063.github.io/posts/22/Machine%20Learning%20-%20Linear%20Regression%20with%20Multiple%20Variables"
           title="Share on LINE"
           aria-label="Share on LINE"
           target="_blank"
@@ -1019,7 +820,7 @@ type: 'line',
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/27/">
+            <a class="group flex" href="/posts/19/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -1028,11 +829,11 @@ type: 'line',
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Machine Learning - Grid Search</span
+                  >Machine Learning - Linear Regression Model</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-02-19 00:00:00 &#43;0000 UTC">19 February 2024</time>
+                    <time datetime="2024-02-18 00:00:00 &#43;0000 UTC">18 February 2024</time>
                   
                 </span>
               </span>
@@ -1041,11 +842,11 @@ type: 'line',
         </span>
         <span>
           
-            <a class="group flex text-right" href="/posts/21/">
+            <a class="group flex text-right" href="/posts/23/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Machine Learning - Gradient Descent</span
+                  >Machine Learning - Vectorization</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
