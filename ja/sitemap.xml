@@ -11,11 +11,9 @@
     
   
     
-  
-    
       <url>
             <loc>https://ms2063.github.io/ja/</loc>
-            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+            <lastmod>2024-02-22T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -37,7 +35,7 @@
     
       <url>
             <loc>https://ms2063.github.io/ja/posts/</loc>
-            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+            <lastmod>2024-02-22T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -54,6 +52,32 @@
               href="https://ms2063.github.io/ja/posts/"
               />
           </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://ms2063.github.io/ja/posts/31/</loc>
+            <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/posts/31/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/posts/31/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/posts/31/"
+              />
+          </url>
+    
+  
     
   
     
@@ -80,30 +104,6 @@
               href="https://ms2063.github.io/ja/posts/28/"
               />
           </url>
-    
-  
-    
-      <url>
-            <loc>https://ms2063.github.io/ja/posts/29/</loc>
-            <lastmod>2024-02-20T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://ms2063.github.io/posts/29/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="ko"
-              href="https://ms2063.github.io/ko/posts/29/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="ja"
-              href="https://ms2063.github.io/ja/posts/29/"
-              />
-          </url>
-    
-  
     
   
     

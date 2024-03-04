@@ -6,21 +6,21 @@
     <description>Recent content in python on ms2063</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ms2063.github.io/ja/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>機械学習 - 特徴量エンジニアリング（Feature Engineering）</title>
+      <link>https://ms2063.github.io/ja/posts/31/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/posts/31/</guid>
+      <description>&lt;p&gt;この投稿では、生データ（raw data）をモデルが理解できる形に変換するプロセスである特徴量エンジニアリング（Feature Engineering）が何であり、なぜ重要なのか、そして基本的な特徴量エンジニアリング技術について説明します。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>機械学習 - ランダムサーチ(Random Search)</title>
       <link>https://ms2063.github.io/ja/posts/28/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/posts/28/</guid>
       <description>&lt;p&gt;この投稿では、マシンラーニングでモデルの性能を最大化するためのハイパーパラメータチューニングの一つであるランダムサーチ(Random Search)の概念を説明し、Scikit-learnライブラリを使用した実装例を紹介します。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>機械学習 - 特徴量エンジニアリング（Feature Engineering）</title>
-      <link>https://ms2063.github.io/ja/posts/29/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ja/posts/29/</guid>
-      <description>&lt;p&gt;この投稿では、生データ（raw data）をモデルが理解できる形に変換するプロセスである特徴量エンジニアリング（Feature Engineering）が何であり、なぜ重要なのか、そして基本的な特徴量エンジニアリング技術について説明します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>機械学習 - グリッドサーチ(Grid Search)</title>

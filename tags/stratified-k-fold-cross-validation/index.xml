@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stratified k-fold cross-validation on ms2063</title>
+    <link>https://ms2063.github.io/tags/stratified-k-fold-cross-validation/</link>
+    <description>Recent content in stratified k-fold cross-validation on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/tags/stratified-k-fold-cross-validation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning - Stratified K-Fold Cross-Validation</title>
+      <link>https://ms2063.github.io/posts/26/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/26/</guid>
+      <description>&lt;p&gt;This article explains what Stratified K-Fold Cross-Validation is on Machine Learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

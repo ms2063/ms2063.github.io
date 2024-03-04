@@ -6,27 +6,97 @@
     <description>Recent content in Tags on ms2063</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ms2063.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>feature engineering</title>
-      <link>https://ms2063.github.io/tags/feature-engineering/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/tags/feature-engineering/</guid>
+      <title>accuracy</title>
+      <link>https://ms2063.github.io/tags/accuracy/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/accuracy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>confusion matrix</title>
+      <link>https://ms2063.github.io/tags/confusion-matrix/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/confusion-matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>evaluation metric</title>
+      <link>https://ms2063.github.io/tags/evaluation-metric/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/evaluation-metric/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>f1 score</title>
+      <link>https://ms2063.github.io/tags/f1-score/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/f1-score/</guid>
       <description></description>
     </item>
     <item>
       <title>machine learning</title>
       <link>https://ms2063.github.io/tags/machine-learning/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>precision</title>
+      <link>https://ms2063.github.io/tags/precision/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/precision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>recall</title>
+      <link>https://ms2063.github.io/tags/recall/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/recall/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>roc auc</title>
+      <link>https://ms2063.github.io/tags/roc-auc/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/roc-auc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>feature engineering</title>
+      <link>https://ms2063.github.io/tags/feature-engineering/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/feature-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>python</title>
       <link>https://ms2063.github.io/tags/python/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>label encoding</title>
+      <link>https://ms2063.github.io/tags/label-encoding/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/label-encoding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>one-hot encoding</title>
+      <link>https://ms2063.github.io/tags/one-hot-encoding/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/one-hot-encoding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>k-fold cross-validation</title>
+      <link>https://ms2063.github.io/tags/k-fold-cross-validation/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/k-fold-cross-validation/</guid>
       <description></description>
     </item>
     <item>
@@ -34,6 +104,13 @@
       <link>https://ms2063.github.io/tags/random-search/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/random-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>stratified k-fold cross-validation</title>
+      <link>https://ms2063.github.io/tags/stratified-k-fold-cross-validation/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/stratified-k-fold-cross-validation/</guid>
       <description></description>
     </item>
     <item>

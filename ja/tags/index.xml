@@ -6,27 +6,41 @@
     <description>Recent content in Tags on ms2063</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ms2063.github.io/ja/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>feature engineering</title>
       <link>https://ms2063.github.io/ja/tags/feature-engineering/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/feature-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>machine learning</title>
       <link>https://ms2063.github.io/ja/tags/machine-learning/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>python</title>
       <link>https://ms2063.github.io/ja/tags/python/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>機械学習</title>
+      <link>https://ms2063.github.io/ja/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>特徴量エンジニアリング</title>
+      <link>https://ms2063.github.io/ja/tags/%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/tags/%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0/</guid>
       <description></description>
     </item>
     <item>
@@ -41,20 +55,6 @@
       <link>https://ms2063.github.io/ja/tags/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%81/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%81/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>機械学習</title>
-      <link>https://ms2063.github.io/ja/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ja/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>特徴量エンジニアリング</title>
-      <link>https://ms2063.github.io/ja/tags/%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/ja/tags/%E7%89%B9%E5%BE%B4%E9%87%8F%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0/</guid>
       <description></description>
     </item>
     <item>

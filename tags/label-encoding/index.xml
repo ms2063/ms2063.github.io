@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>label encoding on ms2063</title>
+    <link>https://ms2063.github.io/tags/label-encoding/</link>
+    <description>Recent content in label encoding on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/tags/label-encoding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning - Label Encoding</title>
+      <link>https://ms2063.github.io/posts/29/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/29/</guid>
+      <description>&lt;p&gt;This article explains Label Encoding on Machine Learning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
