@@ -9,301 +9,322 @@
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ms2063.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>accuracy</title>
+      <title>Accuracy</title>
       <link>https://ms2063.github.io/tags/accuracy/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/accuracy/</guid>
       <description></description>
     </item>
     <item>
-      <title>confusion matrix</title>
+      <title>Confusion Matrix</title>
       <link>https://ms2063.github.io/tags/confusion-matrix/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/confusion-matrix/</guid>
       <description></description>
     </item>
     <item>
-      <title>evaluation metric</title>
+      <title>Evaluation Metric</title>
       <link>https://ms2063.github.io/tags/evaluation-metric/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/evaluation-metric/</guid>
       <description></description>
     </item>
     <item>
-      <title>f1 score</title>
+      <title>F1 Score</title>
       <link>https://ms2063.github.io/tags/f1-score/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/f1-score/</guid>
       <description></description>
     </item>
     <item>
-      <title>machine learning</title>
+      <title>Machine Learning</title>
       <link>https://ms2063.github.io/tags/machine-learning/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>precision</title>
+      <title>Precision</title>
       <link>https://ms2063.github.io/tags/precision/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/precision/</guid>
       <description></description>
     </item>
     <item>
-      <title>recall</title>
+      <title>Recall</title>
       <link>https://ms2063.github.io/tags/recall/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/recall/</guid>
       <description></description>
     </item>
     <item>
-      <title>roc auc</title>
+      <title>Roc Auc</title>
       <link>https://ms2063.github.io/tags/roc-auc/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/roc-auc/</guid>
       <description></description>
     </item>
     <item>
-      <title>feature engineering</title>
+      <title>Feature Engineering</title>
       <link>https://ms2063.github.io/tags/feature-engineering/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/feature-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://ms2063.github.io/tags/python/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/python/</guid>
       <description></description>
     </item>
     <item>
-      <title>label encoding</title>
+      <title>Label Encoding</title>
       <link>https://ms2063.github.io/tags/label-encoding/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/label-encoding/</guid>
       <description></description>
     </item>
     <item>
-      <title>one-hot encoding</title>
+      <title>One-Hot Encoding</title>
       <link>https://ms2063.github.io/tags/one-hot-encoding/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/one-hot-encoding/</guid>
       <description></description>
     </item>
     <item>
-      <title>k-fold cross-validation</title>
+      <title>K-Fold Cross-Validation</title>
       <link>https://ms2063.github.io/tags/k-fold-cross-validation/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/k-fold-cross-validation/</guid>
       <description></description>
     </item>
     <item>
-      <title>random search</title>
+      <title>Random Search</title>
       <link>https://ms2063.github.io/tags/random-search/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/random-search/</guid>
       <description></description>
     </item>
     <item>
-      <title>stratified k-fold cross-validation</title>
+      <title>Stratified K-Fold Cross-Validation</title>
       <link>https://ms2063.github.io/tags/stratified-k-fold-cross-validation/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/stratified-k-fold-cross-validation/</guid>
       <description></description>
     </item>
     <item>
-      <title>grid search</title>
+      <title>Grid Search</title>
       <link>https://ms2063.github.io/tags/grid-search/</link>
       <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/grid-search/</guid>
       <description></description>
     </item>
     <item>
-      <title>cost function</title>
+      <title>Cost Function</title>
       <link>https://ms2063.github.io/tags/cost-function/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/cost-function/</guid>
       <description></description>
     </item>
     <item>
-      <title>gradient descent</title>
+      <title>Gradient Descent</title>
       <link>https://ms2063.github.io/tags/gradient-descent/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/gradient-descent/</guid>
       <description></description>
     </item>
     <item>
-      <title>linear regression model</title>
+      <title>Linear Regression Model</title>
       <link>https://ms2063.github.io/tags/linear-regression-model/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/linear-regression-model/</guid>
       <description></description>
     </item>
     <item>
-      <title>multiple linear regression</title>
+      <title>Multiple Linear Regression</title>
       <link>https://ms2063.github.io/tags/multiple-linear-regression/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/multiple-linear-regression/</guid>
       <description></description>
     </item>
     <item>
-      <title>vectorization</title>
+      <title>Vectorization</title>
       <link>https://ms2063.github.io/tags/vectorization/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/vectorization/</guid>
       <description></description>
     </item>
     <item>
-      <title>supervised learning</title>
+      <title>Supervised Learning</title>
       <link>https://ms2063.github.io/tags/supervised-learning/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/supervised-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>unsupervised learning</title>
+      <title>Unsupervised Learning</title>
       <link>https://ms2063.github.io/tags/unsupervised-learning/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/unsupervised-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>paired t-test</title>
+      <title>Seoul_real_estate_insight</title>
+      <link>https://ms2063.github.io/tags/seoul_real_estate_insight/</link>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/seoul_real_estate_insight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>.Env</title>
+      <link>https://ms2063.github.io/tags/.env/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/.env/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment Variables</title>
+      <link>https://ms2063.github.io/tags/environment-variables/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/tags/environment-variables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paired T-Test</title>
       <link>https://ms2063.github.io/tags/paired-t-test/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/paired-t-test/</guid>
       <description></description>
     </item>
     <item>
-      <title>scipy</title>
+      <title>Scipy</title>
       <link>https://ms2063.github.io/tags/scipy/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/scipy/</guid>
       <description></description>
     </item>
     <item>
-      <title>statistics</title>
+      <title>Statistics</title>
       <link>https://ms2063.github.io/tags/statistics/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/statistics/</guid>
       <description></description>
     </item>
     <item>
-      <title>ttest_rel</title>
+      <title>Ttest_rel</title>
       <link>https://ms2063.github.io/tags/ttest_rel/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/ttest_rel/</guid>
       <description></description>
     </item>
     <item>
-      <title>independent samples t-test</title>
+      <title>Independent Samples T-Test</title>
       <link>https://ms2063.github.io/tags/independent-samples-t-test/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/independent-samples-t-test/</guid>
       <description></description>
     </item>
     <item>
-      <title>ttest_ind</title>
+      <title>Ttest_ind</title>
       <link>https://ms2063.github.io/tags/ttest_ind/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/ttest_ind/</guid>
       <description></description>
     </item>
     <item>
-      <title>one sample t-test</title>
+      <title>One Sample T-Test</title>
       <link>https://ms2063.github.io/tags/one-sample-t-test/</link>
       <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/one-sample-t-test/</guid>
       <description></description>
     </item>
     <item>
-      <title>regression analysis</title>
+      <title>Regression Analysis</title>
       <link>https://ms2063.github.io/tags/regression-analysis/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/regression-analysis/</guid>
       <description></description>
     </item>
     <item>
-      <title>alternative hypothesis</title>
+      <title>Alternative Hypothesis</title>
       <link>https://ms2063.github.io/tags/alternative-hypothesis/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/alternative-hypothesis/</guid>
       <description></description>
     </item>
     <item>
-      <title>hypothesis testing</title>
+      <title>Hypothesis Testing</title>
       <link>https://ms2063.github.io/tags/hypothesis-testing/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/hypothesis-testing/</guid>
       <description></description>
     </item>
     <item>
-      <title>null hypothesis</title>
+      <title>Null Hypothesis</title>
       <link>https://ms2063.github.io/tags/null-hypothesis/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/null-hypothesis/</guid>
       <description></description>
     </item>
     <item>
-      <title>concat</title>
+      <title>Concat</title>
       <link>https://ms2063.github.io/tags/concat/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/concat/</guid>
       <description></description>
     </item>
     <item>
-      <title>join</title>
+      <title>Join</title>
       <link>https://ms2063.github.io/tags/join/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/join/</guid>
       <description></description>
     </item>
     <item>
-      <title>merge</title>
+      <title>Merge</title>
       <link>https://ms2063.github.io/tags/merge/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/merge/</guid>
       <description></description>
     </item>
     <item>
-      <title>pandas</title>
+      <title>Pandas</title>
       <link>https://ms2063.github.io/tags/pandas/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/pandas/</guid>
       <description></description>
     </item>
     <item>
-      <title>matplotlib</title>
+      <title>Matplotlib</title>
       <link>https://ms2063.github.io/tags/matplotlib/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/matplotlib/</guid>
       <description></description>
     </item>
     <item>
-      <title>date_range</title>
+      <title>Date_range</title>
       <link>https://ms2063.github.io/tags/date_range/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/date_range/</guid>
       <description></description>
     </item>
     <item>
-      <title>iloc</title>
+      <title>Iloc</title>
       <link>https://ms2063.github.io/tags/iloc/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/iloc/</guid>
       <description></description>
     </item>
     <item>
-      <title>loc</title>
+      <title>Loc</title>
       <link>https://ms2063.github.io/tags/loc/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/loc/</guid>
       <description></description>
     </item>
     <item>
-      <title>sequence types</title>
+      <title>Sequence Types</title>
       <link>https://ms2063.github.io/tags/sequence-types/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/tags/sequence-types/</guid>

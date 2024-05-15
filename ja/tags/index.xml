@@ -9,21 +9,21 @@
     <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ms2063.github.io/ja/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>feature engineering</title>
+      <title>Feature Engineering</title>
       <link>https://ms2063.github.io/ja/tags/feature-engineering/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/feature-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>machine learning</title>
+      <title>Machine Learning</title>
       <link>https://ms2063.github.io/ja/tags/machine-learning/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://ms2063.github.io/ja/tags/python/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/python/</guid>
@@ -44,7 +44,7 @@
       <description></description>
     </item>
     <item>
-      <title>random search</title>
+      <title>Random Search</title>
       <link>https://ms2063.github.io/ja/tags/random-search/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/random-search/</guid>
@@ -58,7 +58,7 @@
       <description></description>
     </item>
     <item>
-      <title>grid search</title>
+      <title>Grid Search</title>
       <link>https://ms2063.github.io/ja/tags/grid-search/</link>
       <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/grid-search/</guid>
@@ -72,14 +72,35 @@
       <description></description>
     </item>
     <item>
-      <title>scipy</title>
+      <title>Seoul_real_estate_insight</title>
+      <link>https://ms2063.github.io/ja/tags/seoul_real_estate_insight/</link>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/tags/seoul_real_estate_insight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>.Env</title>
+      <link>https://ms2063.github.io/ja/tags/.env/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/tags/.env/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>環境変数</title>
+      <link>https://ms2063.github.io/ja/tags/%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/tags/%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scipy</title>
       <link>https://ms2063.github.io/ja/tags/scipy/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/scipy/</guid>
       <description></description>
     </item>
     <item>
-      <title>ttest_rel</title>
+      <title>Ttest_rel</title>
       <link>https://ms2063.github.io/ja/tags/ttest_rel/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/ttest_rel/</guid>
@@ -100,14 +121,14 @@
       <description></description>
     </item>
     <item>
-      <title>ttest_ind</title>
+      <title>Ttest_ind</title>
       <link>https://ms2063.github.io/ja/tags/ttest_ind/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/ttest_ind/</guid>
       <description></description>
     </item>
     <item>
-      <title>独立標本 t検定</title>
+      <title>独立標本 T検定</title>
       <link>https://ms2063.github.io/ja/tags/%E7%8B%AC%E7%AB%8B%E6%A8%99%E6%9C%AC-t%E6%A4%9C%E5%AE%9A/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/%E7%8B%AC%E7%AB%8B%E6%A8%99%E6%9C%AC-t%E6%A4%9C%E5%AE%9A/</guid>
@@ -149,63 +170,63 @@
       <description></description>
     </item>
     <item>
-      <title>concat</title>
+      <title>Concat</title>
       <link>https://ms2063.github.io/ja/tags/concat/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/concat/</guid>
       <description></description>
     </item>
     <item>
-      <title>join</title>
+      <title>Join</title>
       <link>https://ms2063.github.io/ja/tags/join/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/join/</guid>
       <description></description>
     </item>
     <item>
-      <title>merge</title>
+      <title>Merge</title>
       <link>https://ms2063.github.io/ja/tags/merge/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/merge/</guid>
       <description></description>
     </item>
     <item>
-      <title>pandas</title>
+      <title>Pandas</title>
       <link>https://ms2063.github.io/ja/tags/pandas/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/pandas/</guid>
       <description></description>
     </item>
     <item>
-      <title>matplotlib</title>
+      <title>Matplotlib</title>
       <link>https://ms2063.github.io/ja/tags/matplotlib/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/matplotlib/</guid>
       <description></description>
     </item>
     <item>
-      <title>date_range</title>
+      <title>Date_range</title>
       <link>https://ms2063.github.io/ja/tags/date_range/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/date_range/</guid>
       <description></description>
     </item>
     <item>
-      <title>iloc</title>
+      <title>Iloc</title>
       <link>https://ms2063.github.io/ja/tags/iloc/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/iloc/</guid>
       <description></description>
     </item>
     <item>
-      <title>loc</title>
+      <title>Loc</title>
       <link>https://ms2063.github.io/ja/tags/loc/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/loc/</guid>
       <description></description>
     </item>
     <item>
-      <title>sequence types</title>
+      <title>Sequence Types</title>
       <link>https://ms2063.github.io/ja/tags/sequence-types/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/ja/tags/sequence-types/</guid>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seoul_real_estate_insight on ms2063</title>
+    <link>https://ms2063.github.io/ja/tags/seoul_real_estate_insight/</link>
+    <description>Recent content in seoul_real_estate_insight on ms2063</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 08 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ms2063.github.io/ja/tags/seoul_real_estate_insight/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seoul Real Estate Insight</title>
+      <link>https://ms2063.github.io/ja/projects/seoul_real_estate_insight/seoul_real_estate_insight/</link>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ja/projects/seoul_real_estate_insight/seoul_real_estate_insight/</guid>
+      <description>&lt;p&gt;The purpose of this project is to develop a dashboard using Seoul real estate data to visualize real estate market trends and assist users in making real estate investment decisions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

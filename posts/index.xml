@@ -114,6 +114,13 @@
       <description>&lt;p&gt;This article explains what Unsupervised Learning is for Machine Learning.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>How to hide enviroment variables using .env</title>
+      <link>https://ms2063.github.io/posts/12/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/12/</guid>
+      <description>&lt;p&gt;This article explains how to hide environment variables using &lt;code&gt;.env&lt;/code&gt; file.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Statistics - Paired t-Test</title>
       <link>https://ms2063.github.io/posts/10/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>

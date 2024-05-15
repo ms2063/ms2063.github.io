@@ -37,6 +37,13 @@
       <description>&lt;p&gt;머신러닝에서 모델의 최적의 파라미터를 찾기 위한 효율적인 방법 중 하나는 그리드 서치(Grid Search)입니다. 본 글에서는 그리드 서치가 무엇이며, 어떻게 작동하는지, 그리고 언제 사용해야 하는지에 대해 설명합니다.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>.env로 환경 변수 숨기기</title>
+      <link>https://ms2063.github.io/ko/posts/12/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/ko/posts/12/</guid>
+      <description>&lt;p&gt;본 글은 &lt;code&gt;.env&lt;/code&gt; 파일을 통해 환경 변수를 숨기는 방법을 알아보도록 하겠습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Django - pyburger 프로젝트 (1)</title>
       <link>https://ms2063.github.io/ko/posts/11/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
