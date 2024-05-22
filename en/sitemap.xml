@@ -4,6 +4,28 @@
   
     
       <url>
+            <loc>https://ms2063.github.io/projects/convenience_insights/convenience_insights/</loc>
+            <lastmod>2024-03-07T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/projects/convenience_insights/convenience_insights/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/projects/convenience_insights/convenience_insights/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/projects/convenience_insights/convenience_insights/"
+              />
+          </url>
+    
+  
+    
+      <url>
             <loc>https://ms2063.github.io/projects/seoul_real_estate_insight/seoul_real_estate_insight/</loc>
             <lastmod>2024-02-08T00:00:00+00:00</lastmod>
             <xhtml:link
@@ -20,6 +42,54 @@
               rel="alternate"
               hreflang="en"
               href="https://ms2063.github.io/projects/seoul_real_estate_insight/seoul_real_estate_insight/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://ms2063.github.io/projects/</loc>
+            <lastmod>2024-03-07T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/projects/"
+              />
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://ms2063.github.io/</loc>
+            <lastmod>2024-03-07T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/"
               />
           </url>
     
@@ -57,6 +127,8 @@
     
   
     
+  
+    
       <url>
             <loc>https://ms2063.github.io/posts/32/</loc>
             <lastmod>2024-02-23T00:00:00+00:00</lastmod>
@@ -72,25 +144,14 @@
     
   
     
+  
+    
       <url>
-            <loc>https://ms2063.github.io/</loc>
+            <loc>https://ms2063.github.io/posts/33/</loc>
             <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ko"
-              href="https://ms2063.github.io/ko/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="ja"
-              href="https://ms2063.github.io/ja/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://ms2063.github.io/"
-              />
           </url>
+    
+  
     
   
     
@@ -272,30 +333,6 @@
           </url>
     
   
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://ms2063.github.io/projects/</loc>
-            <lastmod>2024-02-08T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ko"
-              href="https://ms2063.github.io/ko/projects/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="ja"
-              href="https://ms2063.github.io/ja/projects/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://ms2063.github.io/projects/"
-              />
-          </url>
     
   
     

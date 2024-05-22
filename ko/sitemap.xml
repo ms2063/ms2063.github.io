@@ -4,6 +4,28 @@
   
     
       <url>
+            <loc>https://ms2063.github.io/ko/projects/convenience_insights/convenience_insights/</loc>
+            <lastmod>2024-03-07T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/projects/convenience_insights/convenience_insights/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/projects/convenience_insights/convenience_insights/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/projects/convenience_insights/convenience_insights/"
+              />
+          </url>
+    
+  
+    
+      <url>
             <loc>https://ms2063.github.io/ko/projects/seoul_real_estate_insight/seoul_real_estate_insight/</loc>
             <lastmod>2024-02-08T00:00:00+00:00</lastmod>
             <xhtml:link
@@ -25,7 +47,25 @@
     
   
     
-  
+      <url>
+            <loc>https://ms2063.github.io/ko/projects/</loc>
+            <lastmod>2024-03-07T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://ms2063.github.io/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ja"
+              href="https://ms2063.github.io/ja/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ko"
+              href="https://ms2063.github.io/ko/projects/"
+              />
+          </url>
     
   
     
@@ -35,7 +75,7 @@
     
       <url>
             <loc>https://ms2063.github.io/ko/</loc>
-            <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+            <lastmod>2024-03-07T00:00:00+00:00</lastmod>
             <xhtml:link
               rel="alternate"
               hreflang="en"
@@ -52,6 +92,12 @@
               href="https://ms2063.github.io/ko/"
               />
           </url>
+    
+  
+    
+  
+    
+  
     
   
     
@@ -173,30 +219,6 @@
               href="https://ms2063.github.io/ko/posts/27/"
               />
           </url>
-    
-  
-    
-      <url>
-            <loc>https://ms2063.github.io/ko/projects/</loc>
-            <lastmod>2024-02-08T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://ms2063.github.io/projects/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="ja"
-              href="https://ms2063.github.io/ja/projects/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="ko"
-              href="https://ms2063.github.io/ko/projects/"
-              />
-          </url>
-    
-  
     
   
     
