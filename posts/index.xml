@@ -6,21 +6,21 @@
     <description>Recent content in Blog posts on ms2063</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ms2063.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL - SELECT, FROM, and WHERE</title>
+      <link>https://ms2063.github.io/posts/33/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://ms2063.github.io/posts/33/</guid>
+      <description>&lt;p&gt;This article explains the use of SELECT, FROM, and WHERE for data exploration within SQL.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Machine Learning - Evaluation Metric</title>
       <link>https://ms2063.github.io/posts/32/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://ms2063.github.io/posts/32/</guid>
       <description>&lt;p&gt;This article explains Evaluation Metric on Machine Learning.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SQL - SELECT, FROM, and WHERE</title>
-      <link>https://ms2063.github.io/posts/33/</link>
-      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://ms2063.github.io/posts/33/</guid>
-      <description>&lt;p&gt;This article explains the use of SELECT, FROM, and WHERE for data exploration within SQL.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Machine Learning - Feature Engineering</title>
